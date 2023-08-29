@@ -1,0 +1,64 @@
+CPXPARAM_Read_DataCheck                          1
+CPXPARAM_TimeLimit                               14400
+Tried aggregator 2 times.
+Aggregator has done 1516 substitutions...
+MIP Presolve eliminated 56033 rows and 460063 columns.
+MIP Presolve modified 3272 coefficients.
+Aggregator did 1516 substitutions.
+Reduced MIP has 552620 rows, 121130 columns, and 1783579 nonzeros.
+Reduced MIP has 111130 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 1.63 sec. (10083.58 ticks)
+Probing time = 0.76 sec. (40.65 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 392000 rows and 8000 columns.
+Reduced MIP has 160620 rows, 113130 columns, and 999579 nonzeros.
+Reduced MIP has 111130 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 1.11 sec. (1397.63 ticks)
+Probing time = 0.67 sec. (33.51 ticks)
+Clique table members: 58199.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 24 threads.
+Root relaxation solution time = 1.62 sec. (827.01 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                         1338.0000     1530.0000            14.35%
+      0     0     1530.0000   572     1338.0000     1530.0000     6618   14.35%
+Exception raised in listener 'MipGapPrinter': 'int' object is not callable, id=1
+*     0+    0                         1490.0000     1530.0000             2.68%
+Exception raised in listener 'MipGapPrinter': 'int' object is not callable, id=3
+      0     0     1530.0000   267     1490.0000      Cuts: 34     7272    2.68%
+      0     0     1530.0000   360     1490.0000     Cuts: 252     8938    2.68%
+      0     0     1530.0000   133     1490.0000      Cuts: 29     9085    2.68%
+*     0+    0                         1530.0000     1530.0000             0.00%
+      0     0        cutoff           1530.0000     1530.0000     9085    0.00%
+Elapsed time = 30.23 sec. (25531.37 ticks, tree = 0.01 MB, solutions = 3)
+
+Clique cuts applied:  2
+Cover cuts applied:  6
+Implied bound cuts applied:  163
+Flow cuts applied:  2
+Mixed integer rounding cuts applied:  43
+Zero-half cuts applied:  19
+Lift and project cuts applied:  1
+Gomory fractional cuts applied:  10
+
+Root node processing (before b&c):
+  Real time             =   30.27 sec. (25559.49 ticks)
+Parallel b&c, 24 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =   30.27 sec. (25559.49 ticks)
+status  = integer optimal solution
+time    = 30.3986 s.
+problem = MILP
+gap     = 0%
+
+Objective value: 1530.0
+[50, 200, 8, 2, 400, 250, 1530, 1530, 0.0, 30.4]
+number of spatial :  1428
+Heuristic Solution information :  [50, 200, 8, 2, 400, 244, 1444, 16, 1428]

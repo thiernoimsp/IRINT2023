@@ -1,0 +1,121 @@
+CPXPARAM_Read_DataCheck                          1
+CPXPARAM_TimeLimit                               14400
+Tried aggregator 2 times.
+MIP Presolve eliminated 955 rows and 141760 columns.
+MIP Presolve added 130 rows and 0 columns.
+MIP Presolve modified 311 coefficients.
+Aggregator did 1136 substitutions.
+Reduced MIP has 123382 rows, 4105 columns, and 252545 nonzeros.
+Reduced MIP has 1605 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.38 sec. (1303.02 ticks)
+Found incumbent of value 10.000000 after 0.71 sec. (1501.63 ticks)
+Probing fixed 44 vars, tightened 0 bounds.
+Probing time = 2.14 sec. (3.98 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 31938 rows and 694 columns.
+Reduced MIP has 91444 rows, 3411 columns, and 188669 nonzeros.
+Reduced MIP has 1561 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.28 sec. (71.70 ticks)
+Probing time = 1.12 sec. (2.62 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 85698 rows and 1404 columns.
+Reduced MIP has 5746 rows, 2007 columns, and 17273 nonzeros.
+Reduced MIP has 1561 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 6.14 sec. (1795.98 ticks)
+Probing time = 0.00 sec. (0.88 ticks)
+Clique table members: 1119.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 24 threads.
+Root relaxation solution time = 0.05 sec. (28.23 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           10.0000      905.0000              --- 
+*     0+    0                          277.0000      905.0000           226.71%
+      0     0      400.6500   149      277.0000      400.6500     1135   44.64%
+Exception raised in listener 'MipGapPrinter': 'int' object is not callable, id=1
+*     0+    0                          329.0000      400.6500            21.78%
+Exception raised in listener 'MipGapPrinter': 'int' object is not callable, id=3
+      0     0      377.5000   148      329.0000     Cuts: 362     1674   14.74%
+*     0+    0                          342.0000      377.5000            10.38%
+Exception raised in listener 'MipGapPrinter': 'int' object is not callable, id=6
+      0     0      366.8880   101      342.0000     Cuts: 230     2041    7.28%
+*     0+    0                          356.0000      366.8880             3.06%
+Exception raised in listener 'MipGapPrinter': 'int' object is not callable, id=9
+      0     0      365.2000    65      356.0000      Cuts: 69     2224    2.58%
+*     0+    0                          359.0000      365.2000             1.73%
+Exception raised in listener 'MipGapPrinter': 'int' object is not callable, id=12
+      0     0      362.0000    81      359.0000      Cuts: 48     2318    0.84%
+      0     0      362.0000    83      359.0000      Cuts: 39     2358    0.84%
+      0     0      362.0000    28      359.0000       Cuts: 6     2367    0.84%
+      0     0      362.0000    47      359.0000      Cuts: 14     2406    0.84%
+*     0+    0                          361.0000      362.0000             0.28%
+
+Repeating presolve.
+Tried aggregator 3 times.
+MIP Presolve eliminated 441 rows and 829 columns.
+MIP Presolve added 66 rows and 0 columns.
+MIP Presolve modified 393 coefficients.
+Aggregator did 25 substitutions.
+Reduced MIP has 5330 rows, 1153 columns, and 12224 nonzeros.
+Reduced MIP has 707 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (17.81 ticks)
+Probing fixed 25 vars, tightened 0 bounds.
+Probing time = 0.01 sec. (0.43 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 5002 rows and 471 columns.
+Reduced MIP has 328 rows, 682 columns, and 2220 nonzeros.
+Reduced MIP has 682 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (3.38 ticks)
+Probing fixed 2 vars, tightened 0 bounds.
+Probing time = 0.00 sec. (0.73 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 2 rows and 2 columns.
+Reduced MIP has 326 rows, 680 columns, and 2210 nonzeros.
+Reduced MIP has 680 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.50 ticks)
+Represolve time = 0.13 sec. (144.21 ticks)
+Probing time = 0.00 sec. (0.68 ticks)
+Clique table members: 664.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 24 threads.
+Root relaxation solution time = 0.01 sec. (4.98 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                          361.0000      362.0000             0.28%
+      0     0      362.0000    30      361.0000      362.0000     2930    0.28%
+Exception raised in listener 'MipGapPrinter': 'int' object is not callable, id=21
+*     0+    0                          362.0000      362.0000             0.00%
+      0     0        cutoff            362.0000      362.0000     2930    0.00%
+Elapsed time = 18.27 sec. (4405.68 ticks, tree = 0.01 MB, solutions = 8)
+
+GUB cover cuts applied:  53
+Clique cuts applied:  3
+Cover cuts applied:  21
+Mixed integer rounding cuts applied:  3
+Zero-half cuts applied:  31
+Lift and project cuts applied:  3
+Gomory fractional cuts applied:  37
+
+Root node processing (before b&c):
+  Real time             =   18.28 sec. (4416.51 ticks)
+Parallel b&c, 24 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =   18.28 sec. (4416.51 ticks)
+status  = integer optimal solution
+time    = 18.2876 s.
+problem = MILP
+gap     = 0%
+
+Objective value: 362.0
+[50, 50, 8, 10, 400, 128, 362, 362, 0.0, 18.29]
+number of spatial :  273
+Heuristic Solution information :  [50, 50, 8, 10, 400, 121, 289, 16, 273]

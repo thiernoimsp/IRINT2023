@@ -1,0 +1,86 @@
+CPXPARAM_Read_DataCheck                          1
+CPXPARAM_TimeLimit                               14400
+Aggregator has done 1516 substitutions...
+Tried aggregator 2 times.
+MIP Presolve eliminated 110951 rows and 352546 columns.
+MIP Presolve modified 5232 coefficients.
+Aggregator did 1516 substitutions.
+Reduced MIP has 613631 rows, 228647 columns, and 2538352 nonzeros.
+Reduced MIP has 218647 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 5.92 sec. (10944.63 ticks)
+Probing time = 2.43 sec. (71.31 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 294000 rows and 6000 columns.
+Reduced MIP has 319631 rows, 222647 columns, and 1950352 nonzeros.
+Reduced MIP has 218647 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 4.34 sec. (2548.97 ticks)
+Probing time = 1.82 sec. (61.20 ticks)
+Clique table members: 115609.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 24 threads.
+Root relaxation solution time = 4.29 sec. (1518.47 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                         1152.0000     1530.0000            32.81%
+      0     0     1530.0000  1161     1152.0000     1530.0000    10962   32.81%
+Exception raised in listener 'MipGapPrinter': 'int' object is not callable, id=1
+*     0+    0                         1350.0000     1530.0000            13.33%
+Exception raised in listener 'MipGapPrinter': 'int' object is not callable, id=3
+      0     0     1530.0000   612     1350.0000     Cuts: 138    14004   13.33%
+      0     0     1530.0000   809     1350.0000     Cuts: 556    18891   13.33%
+      0     0     1530.0000   301     1350.0000      Cuts: 69    19899   13.33%
+*     0+    0                         1442.0000     1530.0000             6.10%
+Exception raised in listener 'MipGapPrinter': 'int' object is not callable, id=9
+      0     0     1530.0000   534     1442.0000     Cuts: 247    23110    6.10%
+      0     2     1530.0000   176     1442.0000     1530.0000    23110    6.10%
+Elapsed time = 185.37 sec. (53300.62 ticks, tree = 0.02 MB, solutions = 3)
+      3     5     1530.0000   144     1442.0000     1530.0000    23225    6.10%
+      6     8     1530.0000   130     1442.0000     1530.0000    23364    6.10%
+      9     3     1530.0000   176     1442.0000     1530.0000    23129    6.10%
+     11     4     1530.0000   170     1442.0000     1530.0000    23144    6.10%
+     12     6     1530.0000   140     1442.0000     1530.0000    23227    6.10%
+     19    10     1530.0000   124     1442.0000     1530.0000    23462    6.10%
+     23    16     1530.0000   403     1442.0000     1530.0000    26394    6.10%
+     29    19     1530.0000   240     1442.0000     1530.0000    27060    6.10%
+     36    27     1530.0000   240     1442.0000     1530.0000    29620    6.10%
+     64    44     1530.0000   181     1442.0000     1530.0000    45502    6.10%
+Elapsed time = 257.72 sec. (56834.75 ticks, tree = 8.08 MB, solutions = 3)
+     94    65     1530.0000   369     1442.0000     1530.0000    71155    6.10%
+*   109+   28                         1514.0000     1530.0000             1.06%
+Exception raised in listener 'MipGapPrinter': 'int' object is not callable, id=29
+    160    96     1530.0000   408     1514.0000     1530.0000   123400    1.06%
+    195   117     1530.0000   387     1514.0000     1530.0000   134041    1.06%
+*   247+  180                         1530.0000     1530.0000             0.00%
+    264   219     1530.0000   258     1530.0000     1530.0000   160080    0.00%
+    286   214     1530.0000   290     1530.0000     1530.0000   159515    0.00%
+Exception raised in listener 'MipGapPrinter': 'int' object is not callable, id=32
+
+Clique cuts applied:  9
+Cover cuts applied:  28
+Implied bound cuts applied:  1372
+Flow cuts applied:  5
+Mixed integer rounding cuts applied:  101
+Zero-half cuts applied:  45
+Lift and project cuts applied:  6
+Gomory fractional cuts applied:  16
+
+Root node processing (before b&c):
+  Real time             =  174.94 sec. (52900.89 ticks)
+Parallel b&c, 24 threads:
+  Real time             =  187.57 sec. (9235.09 ticks)
+  Sync time (average)   =   73.31 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =  362.51 sec. (62135.99 ticks)
+status  = integer optimal solution
+time    = 365.161 s.
+problem = MILP
+gap     = 0%
+
+Objective value: 1530.0
+[50, 200, 8, 2, 400, 250, 1530, 1530, 0.0, 365.16]
+number of spatial :  1444
+Heuristic Solution information :  [50, 200, 8, 2, 400, 245, 1460, 16, 1444]

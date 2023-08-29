@@ -1,0 +1,64 @@
+CPXPARAM_Read_DataCheck                          1
+CPXPARAM_TimeLimit                               14400
+Tried aggregator 2 times.
+MIP Presolve eliminated 98749 rows and 339754 columns.
+MIP Presolve modified 4426 coefficients.
+Aggregator did 1006 substitutions.
+Reduced MIP has 625320 rows, 240980 columns, and 2421874 nonzeros.
+Reduced MIP has 230980 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 3.87 sec. (7996.56 ticks)
+Probing time = 1.69 sec. (67.36 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 294000 rows and 6000 columns.
+Reduced MIP has 331320 rows, 234980 columns, and 1833874 nonzeros.
+Reduced MIP has 230980 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 3.18 sec. (2064.02 ticks)
+Probing time = 1.73 sec. (67.23 ticks)
+Clique table members: 126218.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 24 threads.
+Root relaxation solution time = 7.09 sec. (2496.81 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                          552.0000     1020.0000            84.78%
+      0     0     1020.0000  1854      552.0000     1020.0000    15777   84.78%
+Exception raised in listener 'MipGapPrinter': 'int' object is not callable, id=1
+*     0+    0                          694.0000     1020.0000            46.97%
+Exception raised in listener 'MipGapPrinter': 'int' object is not callable, id=3
+      0     0     1020.0000  1745      694.0000     Cuts: 318    70201   46.97%
+      0     0     1020.0000  2158      694.0000     Cuts: 999   218055   46.97%
+      0     0     1020.0000  1587      694.0000     Cuts: 136   282314   46.97%
+*     0+    0                          883.0000     1020.0000            15.52%
+*     0+    0                          974.0000     1020.0000             4.72%
+*     0+    0                          980.0000     1020.0000             4.08%
+      0     0        cutoff            980.0000     1020.0000   282314    4.08%
+Elapsed time = 14401.06 sec. (1034712.73 ticks, tree = 0.01 MB, solutions = 5)
+
+Clique cuts applied:  17
+Cover cuts applied:  58
+Implied bound cuts applied:  657
+Flow cuts applied:  4
+Mixed integer rounding cuts applied:  224
+Zero-half cuts applied:  75
+Gomory fractional cuts applied:  6
+
+Root node processing (before b&c):
+  Real time             = 14401.28 sec. (1034753.04 ticks)
+Parallel b&c, 24 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) = 14401.28 sec. (1034753.04 ticks)
+status  = time limit exceeded
+time    = 14402 s.
+problem = MILP
+gap     = 4.08163%
+
+Objective value: 980.0
+[50, 200, 8, 8, 400, 382, 980, 1020, 4.08, 14401.95]
+number of spatial :  944
+Heuristic Solution information :  [50, 200, 8, 8, 400, 375, 950, 6, 944]

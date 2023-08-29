@@ -1,0 +1,67 @@
+CPXPARAM_Read_DataCheck                          1
+CPXPARAM_TimeLimit                               14400
+Tried aggregator 2 times.
+MIP Presolve eliminated 74235 rows and 254756 columns.
+MIP Presolve modified 3396 coefficients.
+Aggregator did 1116 substitutions.
+Reduced MIP has 469273 rows, 180967 columns, and 1833077 nonzeros.
+Reduced MIP has 173467 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 3.51 sec. (6521.71 ticks)
+Probing time = 2.08 sec. (47.67 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 220500 rows and 4500 columns.
+Reduced MIP has 248773 rows, 176467 columns, and 1392077 nonzeros.
+Reduced MIP has 173467 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 1.91 sec. (1561.55 ticks)
+Probing time = 1.25 sec. (46.98 ticks)
+Clique table members: 94717.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 24 threads.
+Root relaxation solution time = 23.90 sec. (5996.89 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                          490.0000     1122.0000           128.98%
+      0     0     1060.5000  1802      490.0000     1060.5000    35287  116.43%
+Exception raised in listener 'MipGapPrinter': 'int' object is not callable, id=1
+*     0+    0                          708.0000     1060.5000            49.79%
+Exception raised in listener 'MipGapPrinter': 'int' object is not callable, id=3
+      0     0     1043.5000  2031      708.0000    Cuts: 1075    90464   47.39%
+      0     0     1040.0000  2437      708.0000     Cuts: 980   151493   46.89%
+      0     0     1040.0000  2284      708.0000    Cuts: 1172   227336   46.89%
+*     0+    0                          896.0000     1040.0000            16.07%
+*     0+    0                          917.0000     1040.0000            13.41%
+*     0+    0                          927.0000     1040.0000            12.19%
+*     0+    0                          985.0000     1040.0000             5.58%
+Exception raised in listener 'MipGapPrinter': 'int' object is not callable, id=9
+      0     0     1040.0000  2413      985.0000    Cuts: 1094   302566    5.58%
+
+GUB cover cuts applied:  50
+Clique cuts applied:  24
+Cover cuts applied:  93
+Implied bound cuts applied:  1837
+Flow cuts applied:  543
+Mixed integer rounding cuts applied:  681
+Zero-half cuts applied:  129
+Lift and project cuts applied:  1
+Gomory fractional cuts applied:  21
+
+Root node processing (before b&c):
+  Real time             = 14400.13 sec. (1097514.16 ticks)
+Parallel b&c, 24 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) = 14400.13 sec. (1097514.16 ticks)
+status  = time limit exceeded
+time    = 14400.7 s.
+problem = MILP
+gap     = 5.58376%
+
+Objective value: 985.0
+[50, 150, 8, 10, 400, 334, 985, 1039, 5.58, 14400.67]
+number of spatial :  909
+Heuristic Solution information :  [50, 150, 8, 10, 400, 329, 925, 16, 909]

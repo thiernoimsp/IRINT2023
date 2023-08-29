@@ -1,0 +1,144 @@
+CPXPARAM_Read_DataCheck                          1
+CPXPARAM_TimeLimit                               14400
+Tried aggregator 2 times.
+MIP Presolve eliminated 40360 rows and 343192 columns.
+MIP Presolve modified 1820 coefficients.
+Aggregator did 600 substitutions.
+Reduced MIP has 415706 rows, 92332 columns, and 1220656 nonzeros.
+Reduced MIP has 84832 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 9.70 sec. (3557.81 ticks)
+Probing time = 6.57 sec. (25.40 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 293962 rows and 5988 columns.
+Reduced MIP has 121744 rows, 86344 columns, and 632732 nonzeros.
+Reduced MIP has 84832 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 62.42 sec. (3807.76 ticks)
+Probing time = 4.78 sec. (19.63 ticks)
+Clique table members: 45203.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 24 threads.
+Root relaxation solution time = 20.17 sec. (1574.77 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                          421.0000      612.0000            45.37%
+      0     0      612.0000   899      421.0000      612.0000    17088   45.37%
+Exception raised in listener 'MipGapPrinter': 'int' object is not callable, id=1
+*     0+    0                          509.0000      612.0000            20.24%
+Exception raised in listener 'MipGapPrinter': 'int' object is not callable, id=3
+      0     0      612.0000   739      509.0000     Cuts: 102    32220   20.24%
+      0     0      612.0000   960      509.0000     Cuts: 505    49806   20.24%
+      0     0      612.0000   627      509.0000      Cuts: 83    62180   20.24%
+*     0+    0                          576.0000      612.0000             6.25%
+*     0+    0                          581.0000      612.0000             5.34%
+*     0+    0                          590.0000      612.0000             3.73%
+Exception raised in listener 'MipGapPrinter': 'int' object is not callable, id=9
+      0     0      612.0000   899      590.0000     Cuts: 386    79177    3.73%
+Heuristic still looking.
+Heuristic still looking.
+*     0+    0                          592.0000      612.0000             3.38%
+*     0+    0                          598.0000      612.0000             2.34%
+*     0+    0                          606.0000      612.0000             0.99%
+Exception raised in listener 'MipGapPrinter': 'int' object is not callable, id=12
+      0     2      612.0000   350      606.0000      612.0000    79177    0.99%
+Elapsed time = 2909.55 sec. (165790.91 ticks, tree = 0.02 MB, solutions = 8)
+      1     3      612.0000   370      606.0000      612.0000    80298    0.99%
+      3     5      612.0000   462      606.0000      612.0000    81147    0.99%
+      4     6      612.0000   469      606.0000      612.0000    81692    0.99%
+      5     7      612.0000   563      606.0000      612.0000    82394    0.99%
+      6     8      612.0000   514      606.0000      612.0000    83316    0.99%
+      7     9      612.0000   502      606.0000      612.0000    83773    0.99%
+      9    11      612.0000   449      606.0000      612.0000    84364    0.99%
+     10    12      612.0000   492      606.0000      612.0000    84944    0.99%
+     12    14      612.0000   477      606.0000      612.0000    85252    0.99%
+     18    20      612.0000   425      606.0000      612.0000    87359    0.99%
+Elapsed time = 3066.06 sec. (171295.30 ticks, tree = 0.06 MB, solutions = 8)
+     29    27      612.0000   380      606.0000      612.0000    90993    0.99%
+     49    39      612.0000   361      606.0000      612.0000    94359    0.99%
+     81    62      612.0000   440      606.0000      612.0000   103500    0.99%
+    136    13      612.0000   466      606.0000      612.0000    85121    0.99%
+*   139+   23                          608.0000      612.0000             0.66%
+    217   150      612.0000   437      608.0000      612.0000   144065    0.66%
+Exception raised in listener 'MipGapPrinter': 'int' object is not callable, id=39
+    323   212      612.0000   416      608.0000      612.0000   163504    0.66%
+    434   304      612.0000   397      608.0000      612.0000   189917    0.66%
+    518   334      612.0000   385      608.0000      612.0000   196482    0.66%
+    578   480      612.0000   398      608.0000      612.0000   247791    0.66%
+    637   516      612.0000   326      608.0000      612.0000   260691    0.66%
+Elapsed time = 3405.24 sec. (180944.97 ticks, tree = 12.60 MB, solutions = 11)
+    698   538      612.0000   384      608.0000      612.0000   275324    0.66%
+    780   588      612.0000   503      608.0000      612.0000   301080    0.66%
+    868   720      612.0000   425      608.0000      612.0000   380816    0.66%
+    976   746      612.0000   353      608.0000      612.0000   396648    0.66%
+   1090   809      612.0000   467      608.0000      612.0000   440617    0.66%
+   1199   937      612.0000   325      608.0000      612.0000   515190    0.66%
+   1293   990      612.0000   288      608.0000      612.0000   552191    0.66%
+   1359  1060      612.0000   221      608.0000      612.0000   597210    0.66%
+   1399  1220      612.0000   378      608.0000      612.0000   699480    0.66%
+   1473  1286      612.0000   436      608.0000      612.0000   720532    0.66%
+Elapsed time = 3738.96 sec. (190563.11 ticks, tree = 41.18 MB, solutions = 11)
+   1603  1286      612.0000   493      608.0000      612.0000   722333    0.66%
+   1746  1428      612.0000   472      608.0000      612.0000   766067    0.66%
+   1850  1454      612.0000   375      608.0000      612.0000   776366    0.66%
+   1949  1482      612.0000   366      608.0000      612.0000   794818    0.66%
+   2040  1601      612.0000   133      608.0000      612.0000   847360    0.66%
+   2110  1719      612.0000   232      608.0000      612.0000   920668    0.66%
+   2187  1704      612.0000   349      608.0000      612.0000   908496    0.66%
+   2269  1821      612.0000   279      608.0000      612.0000   976395    0.66%
+   2361  1907      612.0000   354      608.0000      612.0000  1024713    0.66%
+   2488  1955      612.0000   426      608.0000      612.0000  1052488    0.66%
+Elapsed time = 4066.27 sec. (200177.20 ticks, tree = 68.72 MB, solutions = 11)
+   2633  1940      612.0000   176      608.0000      612.0000  1044067    0.66%
+   2784  2042      612.0000   257      608.0000      612.0000  1102944    0.66%
+   2925  2012      612.0000   138      608.0000      612.0000  1083092    0.66%
+   3072  2280      612.0000   294      608.0000      612.0000  1252953    0.66%
+   3198  2334      612.0000   235      608.0000      612.0000  1290072    0.66%
+   3331  2558      612.0000   324      608.0000      612.0000  1444253    0.66%
+   3483  2552      612.0000   162      608.0000      612.0000  1433460    0.66%
+   3617  2746    infeasible            608.0000      612.0000  1552295    0.66%
+   3758  2730    infeasible            608.0000      612.0000  1541309    0.66%
+   3916  3011      612.0000    80      608.0000      612.0000  1708368    0.66%
+Elapsed time = 4327.60 sec. (209773.90 ticks, tree = 116.99 MB, solutions = 11)
+   4043  2925      612.0000    96      608.0000      612.0000  1656869    0.66%
+   4181  3025      612.0000    64      608.0000      612.0000  1716326    0.66%
+   4317  3205      612.0000   260      608.0000      612.0000  1833942    0.66%
+   4466  3211    infeasible            608.0000      612.0000  1837892    0.66%
+   4603  3472    infeasible            608.0000      612.0000  1969948    0.66%
+   4741  3545      610.0000    76      608.0000      612.0000  2009040    0.66%
+   4884  3460      610.0000    62      608.0000      612.0000  1955218    0.66%
+*  4962+ 3603                          612.0000      612.0000             0.00%
+   4991  3690      612.0000   300      612.0000      612.0000  2089045    0.00%
+   5059  3753      612.0000   189      612.0000      612.0000  2114049    0.00%
+   5094  3726    infeasible            612.0000      612.0000  2106791    0.00%
+Elapsed time = 4688.28 sec. (219415.54 ticks, tree = 149.68 MB, solutions = 12)
+   5109  2829      612.0000   251      612.0000      612.0000  1601383    0.00%
+   5110  1926      612.0000   365      612.0000      612.0000  1035339    0.00%
+Exception raised in listener 'MipGapPrinter': 'int' object is not callable, id=57
+
+Clique cuts applied:  28
+Cover cuts applied:  65
+Implied bound cuts applied:  993
+Flow cuts applied:  6
+Mixed integer rounding cuts applied:  97
+Zero-half cuts applied:  73
+Gomory fractional cuts applied:  2
+
+Root node processing (before b&c):
+  Real time             = 2887.61 sec. (165694.48 ticks)
+Parallel b&c, 24 threads:
+  Real time             = 2227.07 sec. (76147.65 ticks)
+  Sync time (average)   =  689.77 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) = 5114.68 sec. (241842.12 ticks)
+status  = integer optimal solution
+time    = 5117.33 s.
+problem = MILP
+gap     = 0%
+
+Objective value: 612.0
+[50, 150, 8, 4, 400, 300, 612, 612, 0.0, 5117.33]
+number of spatial :  538
+Heuristic Solution information :  [50, 150, 8, 4, 400, 276, 538, 0, 538]
